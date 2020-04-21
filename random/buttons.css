@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(167, 179, 139);
+    position: relative;
+    top: 40px;
+}
+* {
+    box-sizing: border-box;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(62, 60, 73);
+    font-size: 75px;
+}
+.one , .two , .three , .four {
+    background-color: rgb(161, 142, 135);
+    width: 40%;
+    height: 100px;
+    text-align: center;
+    font-size: 50px;
+    border: 10px solid rgb(62, 60, 73);
+    color: rgb(62, 60, 73);
+    padding: 10px;
+    margin: 0px 5% 3% 5%;
+}
+a {
+    text-decoration-line: none;
+    color: rgb(62, 60, 73);
+}
+div {
+    float: left;
+}
+div:hover{
+    background-color: rgba(224, 186, 203, 0.829);
+    
+}
+@media (max-width:642px) {
+    .one , .two , .three , .four {
+        font-size: 50px;
+        padding: 10px;
+    }
+}
