@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    color: white;
+    font-size: 16px;
+    background-color: rgb(200, 214, 225);
+}
+#header-nav {
+    background-color: rgb(86, 118, 141);
+    border-bottom: 1px solid white;
+}
+.navbar-brand > h1 {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.navbar-toggler {
+    border: 1px solid white !important;
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+    "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+#collapsibleNavbar {
+    background: rgb(86, 118, 141);
+    margin-left: -1rem;
+    margin-right: -1rem;
+    margin-bottom: -0.5rem;
+}
+li.nav-item {
+    border-bottom: 1px solid white;
+}
+.nav-link {
+    text-align: center;
+    font-size: 1.2em;
+    color: white !important;
+    text-transform: capitalize;
+}
+#main-content {
+    padding-left: 33px;
+    padding-right: 33px;
+}
+#main-content > h1 {
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 1px;
+    font-size: 2em;
+    color: rgb(100, 100, 100);
+}
+.box1 , .box2 , .box3 {
+    background-color: rgb(86, 118, 141);
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 43px;
+    border: 1px solid white;
+}
+h2 {
+    text-align: center;
+    margin: 5px;
+    padding: 2px;
+    text-transform: capitalize;
+    font-size: 1.7em;
+}
+section {
+    padding: 5px;
+    margin: 10px;
+    font-size: 1.4em;
+    text-align: justify;
+}
+
+@media (max-width:575px) {
+    .navbar-nav {
+        border-top: 1px solid white !important;
+    }
+}
