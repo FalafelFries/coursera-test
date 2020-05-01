@@ -32,7 +32,6 @@ li.nav-item {
     border-bottom: 1px solid white;
 }
 .nav-link {
-    text-align: center;
     font-size: 1.2em;
     color: white !important;
     text-transform: capitalize;
@@ -57,7 +56,6 @@ li.nav-item {
     border: 1px solid white;
 }
 h2 {
-    text-align: center;
     margin: 5px;
     padding: 2px;
     text-transform: capitalize;
