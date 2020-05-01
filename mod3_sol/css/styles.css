@@ -70,7 +70,7 @@ section {
     text-align: justify;
 }
 
-@media (max-width:575px) {
+@media (max-width:767px) {
     .navbar-nav {
         border-top: 1px solid white !important;
     }
